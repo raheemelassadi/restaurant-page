@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Quicksand:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: pink;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    margin-left: clamp(50px, 200px, 500px)
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    text-decoration: none;
+    color: pink;
+}
+
+nav ul {
+    margin-right: max(3rem, 200px);
+    padding: 0;
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid pink;
+    padding-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: .1s ease-out;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.body {
+    background: url('./images/icecream.jpg') no-repeat center center fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
