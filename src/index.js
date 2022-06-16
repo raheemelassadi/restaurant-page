@@ -1,1 +1,6 @@
-import './/styles.scss'
+import { initialLoad } from "./modules/inital-load";
+import './styles.scss';
+
+
+
+initialLoad()
