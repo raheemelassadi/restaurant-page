@@ -14,9 +14,8 @@ nav {
     ul li {
         font-weight: 500;
         font-size: 2rem;
-        margin-right: 2rem;
         &:hover {
-            border-bottom: 3px solid pink;
+            border-bottom: 3px solid #bea6ff;
             padding-bottom: 5px;
             transition: .1s ease-in-out;
         }
@@ -36,6 +35,7 @@ nav > a:first-child:focus  {
     font-size: 6rem;
     color: pink;
     filter: drop-shadow(5px 5px 4px pink);
+    padding-left: clamp(20px, 3rem, 4rem);
 }
 
 .bg {
@@ -43,6 +43,8 @@ nav > a:first-child:focus  {
 }
 
 .glass {
+    width: clamp(300px, 50%, 70%);
+    margin-top: 100px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.03));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -52,10 +54,12 @@ nav > a:first-child:focus  {
 }
 
 .caption {
+    padding: clamp(20px, 2rem, 2.5rem);
    color: white;
    font-weight: 500;
    border-bottom: 4px solid pink;
-    user-select: none;
+   user-select: none;
+
 
     p {
         filter: drop-shadow(1px 1px 3px #0000008C);
@@ -64,6 +68,8 @@ nav > a:first-child:focus  {
 
 
 #love {
+    font-size: max(3rem);
+    padding-top: max(5%);
     font-family: 'Dancing Script', cursive;
     color: pink;
     filter: drop-shadow(2px 1px 3px #FF1493);
@@ -71,3 +77,4 @@ nav > a:first-child:focus  {
     display: flex;
     justify-content: center;
 }
+
