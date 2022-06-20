@@ -17,7 +17,10 @@ Things I Learned
 
 ## Demo
 
-![https://gyazo.com/5d31e4ce664f3ea5d5eb6cfc75734ae4]
+
+https://user-images.githubusercontent.com/85327929/174523742-7f37bdde-bb95-4aee-b254-a253bcd0797e.mp4
+
+
 
 ## Authors
 
