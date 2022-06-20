@@ -17,7 +17,7 @@ Things I Learned
 
 ## Demo
 
-https://gyazo.com/5d31e4ce664f3ea5d5eb6cfc75734ae4
+![]https://gyazo.com/5d31e4ce664f3ea5d5eb6cfc75734ae4
 
 ## Authors
 
